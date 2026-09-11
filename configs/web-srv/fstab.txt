@@ -1,0 +1,10 @@
+# Project-related /etc/fstab entries only
+
+# Local data disk
+UUID=bff959b1-f61a-410c-930e-ba0e241e79bc /data ext4 defaults 0 2
+
+# NFS file storage
+192.168.31.20:/storage /mnt/nfs nfs defaults,_netdev 0 0
+
+# iSCSI block storage
+UUID=e92340c9-52c3-47c9-8feb-f5ff53ab2997 /mnt/iscsi ext4 defaults,_netdev 0 2
