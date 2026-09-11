@@ -342,7 +342,7 @@ Permission / Log
 
 **SAN**
 
-`LUN` · `IQN` · `Multipath` · `ALUA`
+`LUN` · `IQN` · `Multipath` 
 
 **Operation / Troubleshooting**
 
